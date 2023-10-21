@@ -170,7 +170,7 @@ function App() {
         </form>
         {results.length > 0 && (
           <>
-            <div className="flex gap-2 flex-wrap">
+            <div className="flex gap-2 flex-wrap mb-5">
               {results.map((party) => (
                 <div
                   key={`${party.id}-${party.votes}`}
